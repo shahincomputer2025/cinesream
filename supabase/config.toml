@@ -1,0 +1,19 @@
+project_id = "cicfcemceqsttzyfzibl"
+
+[functions.ia-upload-video]
+verify_jwt = true
+
+[functions.ia-get-videos]
+verify_jwt = false
+
+[functions.ia-search-movies]
+verify_jwt = false
+
+[functions.ia-link-video]
+verify_jwt = true
+
+[functions.ia-fetch-collection]
+verify_jwt = false
+
+[functions.ia-auto-sync]
+verify_jwt = false
